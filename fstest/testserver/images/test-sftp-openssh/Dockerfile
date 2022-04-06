@@ -1,5 +1,5 @@
 # A very minimal sftp server for integration testing rclone
-FROM alpine:latest
+FROM alpine:3.15.4
 
 # User rclone, password password
 RUN \
